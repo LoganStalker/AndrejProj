@@ -9,7 +9,9 @@ app = fastapi.FastAPI()
 
 
 from backend.api.auth.handlers import router as auth_router
+from backend.api.scrap.handlers import router as scrap_router
 app.include_router(auth_router)
+app.include_router(scrap_router)
 
 
 origins = [

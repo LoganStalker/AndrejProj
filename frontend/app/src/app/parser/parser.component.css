@@ -1,0 +1,14 @@
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container > form {
+  width: 300px;
+  display: flex;
+}
+
+.container > form > input {
+  width: 100%;
+}

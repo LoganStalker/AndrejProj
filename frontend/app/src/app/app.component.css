@@ -1,0 +1,9 @@
+.brand-name {
+  background: #aaccff;
+  padding: 5px 10px;
+}
+
+.brand-name > img {
+  width: 170px;
+  height: 60px;
+}

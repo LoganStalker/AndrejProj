@@ -1,0 +1,26 @@
+.buttons {
+  display: flex;
+}
+
+.buttons > button {
+  padding: 0 15px;
+  margin: 15px 0;
+}
+
+.buttons > p {
+  color: blue;
+  padding: 0 15px;
+}
+
+.fields {
+  padding-top: 25px;
+}
+
+.fields > input {
+  width: 185px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
