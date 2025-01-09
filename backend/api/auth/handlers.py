@@ -4,7 +4,6 @@ from backend.models import User
 from .schemas import RegisterLoginSchema
 
 
-
 router = fastapi.APIRouter(prefix="/api/users/v1", tags=["auth"])
 
 

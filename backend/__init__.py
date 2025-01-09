@@ -14,6 +14,7 @@ app.include_router(auth_router)
 
 origins = [
     'http://localhost:3000',
+    'http://localhost:4200',
 ]
 app.add_middleware(
     CORSMiddleware,
